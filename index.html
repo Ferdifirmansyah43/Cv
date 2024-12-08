@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ferdi Firmansyah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(145deg, #4e54c8, #8f94fb);
+            color: #fff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 40px;
+            border-radius: 12px;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+        }
+        .menu {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 1.2em;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .menu a:hover {
+            color: #FFD700;
+            transform: scale(1.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 3.5em;
+            color: #4CAF50;
+            margin: 0;
+            font-weight: 700;
+        }
+        .header p {
+            color: #555;
+            font-size: 1.3em;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f5f5f5;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #2196F3;
+            border-bottom: 3px solid #2196F3;
+            padding-bottom: 5px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        .box {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #e3f2fd;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .box:hover {
+            background-color: #2196F3;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            background-color: #4CAF50;
+        }
+        .footer img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s ease;
+        }
+        .footer img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu Navigasi -->
+    <div class="menu">
+        <a href="#tujuan-karir">Tujuan Karir</a>
+        <a href="#pengalaman-kerja">Pengalaman</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#bahasa">Bahasa</a>
+    </div>
+
+    <div class="container">
+        <!-- Header dengan Foto -->
+        <div class="header">
+            <img src="img/image.png" alt="Foto Ferdi Firmansyah">
+            <h1>Ferdi Firmansyah</h1>
+            <p>Email: <strong>ferdi.firmansyah303@gmail.com</strong> | Telepon: <strong>+62 831 8650 6187</strong></p>
+        </div>
+
+        <!-- Tujuan Karir -->
+        <div class="section" id="tujuan-karir">
+            <h2>Tujuan Karir</h2>
+            <p>Saya adalah seorang profesional di bidang pengemasan (packing) yang memiliki dedikasi tinggi dan siap memberikan kontribusi terbaik di perusahaan Anda. Dengan pengalaman, ketelitian, dan kemampuan bekerja dalam tim maupun secara mandiri, saya berkomitmen untuk mendukung efisiensi dan kualitas operasional perusahaan Anda.</p>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="content">
+            <!-- Pengalaman Kerja -->
+            <div class="box" id="pengalaman-kerja">
+                <h3><strong>Pengalaman Kerja</strong></h3>
+                <p><strong>[PT SUNRA OFFICIAL ID] - Staf Packing</strong><br>
+                Januari 2024 - Desember 2025</p>
+                <ul>
+                    <li>Memastikan proses pengemasan produk sesuai dengan standar perusahaan.</li>
+                    <li>Mengoptimalkan tata letak dan teknik pengemasan.</li>
+                    <li>Bekerja sama dengan tim produksi dan logistik.</li>
+                </ul>
+            </div>
+
+            <!-- Keahlian -->
+            <div class="box" id="keahlian">
+                <h3><strong>Keahlian</strong></h3>
+                <ul>
+                    <li>Manajemen Proyek: Agile, Scrum</li>
+                    <li>Pengemasan Optimal & Efisiensi</li>
+                    <li>Komunikasi dan Kolaborasi</li>
+                </ul>
+            </div>
+
+            <!-- Bahasa -->
+            <div class="box" id="bahasa">
+                <h3><strong>Bahasa</strong></h3>
+                <ul>
+                    <li>Bahasa Indonesia (Penutur Asli)</li>
+                    <li>Bahasa Inggris (Profesional)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="mailto:ferdi.firmansyah303@gmail.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Logo Gmail">
+        </a>
+    </div>
+</body>
+</html>
